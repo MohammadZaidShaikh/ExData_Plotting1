@@ -20,6 +20,5 @@ subSetData$Datetime <- as.POSIXct(datetime)
 
 # calling the basic plot function
 png("plot2.png", width=480, height=480)
-plot(subSetData$Global_active_power~subSetData$Datetime, type="l",
-     ylab="Global Active Power (kilowatts)", xlab="")
+plot(subSetData$Global_active_power~subSetData$Datetime, type="l", ylab="Global Active Power (kilowatts)", xlab="")
 dev.off()
